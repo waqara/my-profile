@@ -1,0 +1,110 @@
+/* Colors and fonts */
+
+body{
+    background-color:#d9e2eb;
+    color: #0A2540;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #00D4FF;
+}
+
+h1 {
+    color: #0A2540;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 5px;
+    TEXT-TRANSFORM: UPPERCASE;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6B72E1;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+a:hover{
+    color: rgb(255, 123, 0);
+}
+
+/* Custom design with Class */ 
+
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+    /*Media Query for Responsive Design*/
+/* For the screen <960px, this CSS will be read */
+@media (max-width: 960px){
+    .container{
+        width: 700px;
+    }
+}
+/* For the screen <720px, this CSS will be read */
+@media (max-width: 720px){
+    .container{
+        width: 500px;
+    }
+}
+/* For the screen <540px, this CSS will be read */
+@media (max-width: 540px){
+    .container{
+        width: 300px;
+    }
+}
+    /*  Responsive Design changes ends here*/
+
+.card-white{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #6B72E1;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i{
+    font-size: 50px;
+}
+
+/* Specific Design changes with ID*/
+#list-left{
+    padding: 0px 10px;
+    list-style-type: square;
+    text-align: left;
+    /*Following two lines will center the list */
+    width: 30%;
+    margin: 0px auto;
+}
+
+
